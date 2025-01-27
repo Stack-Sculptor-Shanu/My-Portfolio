@@ -398,8 +398,17 @@ footer ul li a{
     }
 }
 @media(max-width:600px){
+    header{
+        padding: 1rem 3rem;
+        gap: 2rem;
+        position: relative;
+    }
+    .logo{
+        padding-left: 150px;
+    }
     header #menu-bar{
-        display: block;
+        display: flex;
+        padding-left: 70px;
     }
     .navlists{
         position: absolute;
